@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bsiqa2f7ujab2"
+path="res://.godot/imported/Bluezone_BC0305_steampunk_machine_mechanical_texture_heavy_impact_011.wav-77f536f23e7d234f1bd573e66dcfc518.sample"
+
+[deps]
+
+source_file="res://assets/BluezoneCorp - Steampunk Machines/Bluezone_BC0305_steampunk_machine_mechanical_texture_heavy_impact_011.wav"
+dest_files=["res://.godot/imported/Bluezone_BC0305_steampunk_machine_mechanical_texture_heavy_impact_011.wav-77f536f23e7d234f1bd573e66dcfc518.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

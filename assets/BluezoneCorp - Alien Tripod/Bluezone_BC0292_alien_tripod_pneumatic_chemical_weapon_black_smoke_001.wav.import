@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://do2k37b6g88ok"
+path="res://.godot/imported/Bluezone_BC0292_alien_tripod_pneumatic_chemical_weapon_black_smoke_001.wav-5f883a2651a061a95e1d9df15e8aa8cf.sample"
+
+[deps]
+
+source_file="res://assets/BluezoneCorp - Alien Tripod/Bluezone_BC0292_alien_tripod_pneumatic_chemical_weapon_black_smoke_001.wav"
+dest_files=["res://.godot/imported/Bluezone_BC0292_alien_tripod_pneumatic_chemical_weapon_black_smoke_001.wav-5f883a2651a061a95e1d9df15e8aa8cf.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

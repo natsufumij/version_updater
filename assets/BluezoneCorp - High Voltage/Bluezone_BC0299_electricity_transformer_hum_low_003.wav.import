@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b7xprqw28cshr"
+path="res://.godot/imported/Bluezone_BC0299_electricity_transformer_hum_low_003.wav-91b0d3ccb3f818c3cc6836e75006ba68.sample"
+
+[deps]
+
+source_file="res://assets/BluezoneCorp - High Voltage/Bluezone_BC0299_electricity_transformer_hum_low_003.wav"
+dest_files=["res://.godot/imported/Bluezone_BC0299_electricity_transformer_hum_low_003.wav-91b0d3ccb3f818c3cc6836e75006ba68.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

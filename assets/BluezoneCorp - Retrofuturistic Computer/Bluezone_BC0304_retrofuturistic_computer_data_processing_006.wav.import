@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b4xv4p3v7rtay"
+path="res://.godot/imported/Bluezone_BC0304_retrofuturistic_computer_data_processing_006.wav-73cb290241c15d9273796d9ee9fcac73.sample"
+
+[deps]
+
+source_file="res://assets/BluezoneCorp - Retrofuturistic Computer/Bluezone_BC0304_retrofuturistic_computer_data_processing_006.wav"
+dest_files=["res://.godot/imported/Bluezone_BC0304_retrofuturistic_computer_data_processing_006.wav-73cb290241c15d9273796d9ee9fcac73.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

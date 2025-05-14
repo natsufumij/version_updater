@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://hlg3j4abcgqc"
+path="res://.godot/imported/Bluezone_BC0302_industrial_lever_switch_014.wav-20ce2d4483970c35855f6c5418236131.sample"
+
+[deps]
+
+source_file="res://assets/BluezoneCorp - Industrial Lever Switch/Bluezone_BC0302_industrial_lever_switch_014.wav"
+dest_files=["res://.godot/imported/Bluezone_BC0302_industrial_lever_switch_014.wav-20ce2d4483970c35855f6c5418236131.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

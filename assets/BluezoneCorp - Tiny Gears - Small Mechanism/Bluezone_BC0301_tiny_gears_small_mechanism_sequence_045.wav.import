@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://babu2cr3rmu47"
+path="res://.godot/imported/Bluezone_BC0301_tiny_gears_small_mechanism_sequence_045.wav-774d8a51918d9dd8ba05a2d7b47f941e.sample"
+
+[deps]
+
+source_file="res://assets/BluezoneCorp - Tiny Gears - Small Mechanism/Bluezone_BC0301_tiny_gears_small_mechanism_sequence_045.wav"
+dest_files=["res://.godot/imported/Bluezone_BC0301_tiny_gears_small_mechanism_sequence_045.wav-774d8a51918d9dd8ba05a2d7b47f941e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

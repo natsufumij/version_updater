@@ -51,6 +51,7 @@ func _on_update_boot_pressed() -> void:
 	OS.shell_open(dest_uri)
 
 func goto_main():
+	VersionManager.update_to_remote()
 	VersionManager.load_packages()
 	get_tree().change_scene_to_file("res://scenes/main.tscn")
 

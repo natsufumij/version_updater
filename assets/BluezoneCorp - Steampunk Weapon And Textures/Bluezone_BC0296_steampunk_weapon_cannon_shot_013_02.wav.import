@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://00rii6gg831r"
+path="res://.godot/imported/Bluezone_BC0296_steampunk_weapon_cannon_shot_013_02.wav-306257f934f293108c1df8af20a12c9d.sample"
+
+[deps]
+
+source_file="res://assets/BluezoneCorp - Steampunk Weapon And Textures/Bluezone_BC0296_steampunk_weapon_cannon_shot_013_02.wav"
+dest_files=["res://.godot/imported/Bluezone_BC0296_steampunk_weapon_cannon_shot_013_02.wav-306257f934f293108c1df8af20a12c9d.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c5cpv4k6gnhwb"
+path="res://.godot/imported/Bluezone_BC0305_steampunk_machine_mechanical_texture_053.wav-b84ea3c06aa44eb31c6e81ae622e4a24.sample"
+
+[deps]
+
+source_file="res://assets/BluezoneCorp - Steampunk Machines/Bluezone_BC0305_steampunk_machine_mechanical_texture_053.wav"
+dest_files=["res://.godot/imported/Bluezone_BC0305_steampunk_machine_mechanical_texture_053.wav-b84ea3c06aa44eb31c6e81ae622e4a24.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

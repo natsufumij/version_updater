@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b35pvpsvmajm8"
+path="res://.godot/imported/Bluezone_BC0297_stone_impact_041.wav-a90e443a1776ca963a5f645e6af70097.sample"
+
+[deps]
+
+source_file="res://assets/BluezoneCorp - Stone Impact/Bluezone_BC0297_stone_impact_041.wav"
+dest_files=["res://.godot/imported/Bluezone_BC0297_stone_impact_041.wav-a90e443a1776ca963a5f645e6af70097.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

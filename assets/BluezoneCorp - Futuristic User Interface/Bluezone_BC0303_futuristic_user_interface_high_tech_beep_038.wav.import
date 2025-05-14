@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://df1sknwds2v3e"
+path="res://.godot/imported/Bluezone_BC0303_futuristic_user_interface_high_tech_beep_038.wav-efb9bdd27f975aa3349b6231d63f5d97.sample"
+
+[deps]
+
+source_file="res://assets/BluezoneCorp - Futuristic User Interface/Bluezone_BC0303_futuristic_user_interface_high_tech_beep_038.wav"
+dest_files=["res://.godot/imported/Bluezone_BC0303_futuristic_user_interface_high_tech_beep_038.wav-efb9bdd27f975aa3349b6231d63f5d97.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

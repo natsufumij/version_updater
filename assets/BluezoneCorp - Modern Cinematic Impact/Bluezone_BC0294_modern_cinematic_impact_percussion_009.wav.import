@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://wvgwhr53cqrr"
+path="res://.godot/imported/Bluezone_BC0294_modern_cinematic_impact_percussion_009.wav-724cc27f86fa3b7b112d6f0fcd61eb43.sample"
+
+[deps]
+
+source_file="res://assets/BluezoneCorp - Modern Cinematic Impact/Bluezone_BC0294_modern_cinematic_impact_percussion_009.wav"
+dest_files=["res://.godot/imported/Bluezone_BC0294_modern_cinematic_impact_percussion_009.wav-724cc27f86fa3b7b112d6f0fcd61eb43.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://daplpqpe0f0g7"
+path="res://.godot/imported/Bluezone_BC0297_stone_impact_steel_bar_01_010.wav-34676993ebca5b90389962a2b120d5d0.sample"
+
+[deps]
+
+source_file="res://assets/BluezoneCorp - Stone Impact/Bluezone_BC0297_stone_impact_steel_bar_01_010.wav"
+dest_files=["res://.godot/imported/Bluezone_BC0297_stone_impact_steel_bar_01_010.wav-34676993ebca5b90389962a2b120d5d0.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

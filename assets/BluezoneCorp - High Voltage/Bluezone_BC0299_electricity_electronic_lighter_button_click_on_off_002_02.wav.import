@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dak3d7nl7csgv"
+path="res://.godot/imported/Bluezone_BC0299_electricity_electronic_lighter_button_click_on_off_002_02.wav-1d7300c6af8f2b0158e0865d7f3b1fa3.sample"
+
+[deps]
+
+source_file="res://assets/BluezoneCorp - High Voltage/Bluezone_BC0299_electricity_electronic_lighter_button_click_on_off_002_02.wav"
+dest_files=["res://.godot/imported/Bluezone_BC0299_electricity_electronic_lighter_button_click_on_off_002_02.wav-1d7300c6af8f2b0158e0865d7f3b1fa3.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

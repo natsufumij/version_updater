@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://na31fnbwcxnf"
+path="res://.godot/imported/Bluezone_BC0300_alien_interface_sci_fi_transition_008.wav-98193bb51b9b1917b709975aacd55d32.sample"
+
+[deps]
+
+source_file="res://assets/BluezoneCorp - Alien Interface/Bluezone_BC0300_alien_interface_sci_fi_transition_008.wav"
+dest_files=["res://.godot/imported/Bluezone_BC0300_alien_interface_sci_fi_transition_008.wav-98193bb51b9b1917b709975aacd55d32.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

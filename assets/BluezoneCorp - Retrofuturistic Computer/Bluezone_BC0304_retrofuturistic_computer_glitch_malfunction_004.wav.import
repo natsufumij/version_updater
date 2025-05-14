@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cis7uwkkpg6ee"
+path="res://.godot/imported/Bluezone_BC0304_retrofuturistic_computer_glitch_malfunction_004.wav-01fb92fb863dbf04bf10b2a64b104e20.sample"
+
+[deps]
+
+source_file="res://assets/BluezoneCorp - Retrofuturistic Computer/Bluezone_BC0304_retrofuturistic_computer_glitch_malfunction_004.wav"
+dest_files=["res://.godot/imported/Bluezone_BC0304_retrofuturistic_computer_glitch_malfunction_004.wav-01fb92fb863dbf04bf10b2a64b104e20.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

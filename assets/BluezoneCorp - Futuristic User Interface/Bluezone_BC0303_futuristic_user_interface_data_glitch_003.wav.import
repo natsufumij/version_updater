@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b05wat7wlpew6"
+path="res://.godot/imported/Bluezone_BC0303_futuristic_user_interface_data_glitch_003.wav-771e890d0f4c8a7228de8c5202e88918.sample"
+
+[deps]
+
+source_file="res://assets/BluezoneCorp - Futuristic User Interface/Bluezone_BC0303_futuristic_user_interface_data_glitch_003.wav"
+dest_files=["res://.godot/imported/Bluezone_BC0303_futuristic_user_interface_data_glitch_003.wav-771e890d0f4c8a7228de8c5202e88918.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2
