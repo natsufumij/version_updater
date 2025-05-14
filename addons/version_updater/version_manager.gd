@@ -128,9 +128,9 @@ func check_reset_all_ok():
 		need_update_booter= "no",
 		need_update_pcks = {}
 	}
-	#if OS.has_feature("editor"):
-		#check_all = result
-		#return
+	if OS.has_feature("editor"):
+		check_all = result
+		return
 
 	var pcks_dict = {}
 	for item in now_version["packages"]:
