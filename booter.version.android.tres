@@ -1,0 +1,7 @@
+[gd_resource type="Resource" script_class="BooterVer" load_steps=2 format=3 uid="uid://766x7j3gbc6p"]
+
+[ext_resource type="Script" uid="uid://d1yenigyjn5ld" path="res://addons/version_updater/booter_ver.gd" id="1_dm2do"]
+
+[resource]
+script = ExtResource("1_dm2do")
+version = "0.0.7.9616"

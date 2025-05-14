@@ -1,0 +1,32 @@
+[gd_scene load_steps=2 format=3 uid="uid://dw5e5jy7wc0jm"]
+
+[ext_resource type="Script" uid="uid://d26t2h5b25v5o" path="res://scenes/main.gd" id="1_o5qli"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_o5qli")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer"]
+offset_left = 10.0
+offset_top = 83.0
+offset_right = 10.0
+offset_bottom = 83.0
+
+[node name="Label" type="Label" parent="CanvasLayer"]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "主场景"
+
+[node name="Label2" type="Label" parent="CanvasLayer"]
+offset_left = 75.0
+offset_right = 205.0
+offset_bottom = 23.0
+text = "版本"
+
+[node name="Label3" type="Label" parent="CanvasLayer"]
+offset_left = -1.0
+offset_top = 27.0
+offset_right = 39.0
+offset_bottom = 50.0
+text = "读取资源包的 texture"

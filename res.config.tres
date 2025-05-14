@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="ResourceConfigRes" load_steps=2 format=3 uid="uid://q87deovnphgj"]
+
+[ext_resource type="Script" uid="uid://0xnc6s7f27vl" path="res://addons/version_updater/resource_config_res.gd" id="1_jd8cq"]
+
+[resource]
+script = ExtResource("1_jd8cq")
+resource_uri = "http://127.0.0.1:8801"
+project_name = "sample"
+project_env = "Dev"
+project_env_list = Array[String](["Dev", "Prod"])

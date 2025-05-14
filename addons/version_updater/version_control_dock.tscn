@@ -1,0 +1,277 @@
+[gd_scene load_steps=2 format=3 uid="uid://caplf6mbydlch"]
+
+[ext_resource type="Script" uid="uid://b4vfcp4o8xkk2" path="res://addons/version_updater/version_control_dock.gd" id="1_34fmh"]
+
+[node name="VersionUpdater" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_34fmh")
+
+[node name="ScrollContainer" type="ScrollContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ScrollContainer"]
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="server" type="VBoxContainer" parent="ScrollContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="ScrollContainer/VBoxContainer/server"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "服务器信息"
+horizontal_alignment = 1
+
+[node name="serverIp" type="HBoxContainer" parent="ScrollContainer/VBoxContainer/server"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+
+[node name="Label" type="Label" parent="ScrollContainer/VBoxContainer/server/serverIp"]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+text = "服务器IP"
+
+[node name="LineEdit" type="LineEdit" parent="ScrollContainer/VBoxContainer/server/serverIp"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "127.0.0.1"
+
+[node name="serverPort" type="HBoxContainer" parent="ScrollContainer/VBoxContainer/server"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="ScrollContainer/VBoxContainer/server/serverPort"]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+text = "服务器端口"
+
+[node name="LineEdit" type="LineEdit" parent="ScrollContainer/VBoxContainer/server/serverPort"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "2022"
+
+[node name="serverUser" type="HBoxContainer" parent="ScrollContainer/VBoxContainer/server"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="ScrollContainer/VBoxContainer/server/serverUser"]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+text = "服务器用户名"
+
+[node name="LineEdit" type="LineEdit" parent="ScrollContainer/VBoxContainer/server/serverUser"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "albert"
+
+[node name="serverPath" type="HBoxContainer" parent="ScrollContainer/VBoxContainer/server"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="ScrollContainer/VBoxContainer/server/serverPath"]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+text = "服务器路径"
+
+[node name="LineEdit" type="LineEdit" parent="ScrollContainer/VBoxContainer/server/serverPath"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "/home/albert/updater/sample"
+
+[node name="serverPath2" type="HBoxContainer" parent="ScrollContainer/VBoxContainer/server"]
+layout_mode = 2
+
+[node name="Button" type="Button" parent="ScrollContainer/VBoxContainer/server/serverPath2"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "加载配置"
+
+[node name="Button2" type="Button" parent="ScrollContainer/VBoxContainer/server/serverPath2"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "更新配置"
+
+[node name="pcks" type="VBoxContainer" parent="ScrollContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="Label2" type="Label" parent="ScrollContainer/VBoxContainer/pcks"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "资源包信息"
+horizontal_alignment = 1
+
+[node name="pckUri" type="HBoxContainer" parent="ScrollContainer/VBoxContainer/pcks"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="ScrollContainer/VBoxContainer/pcks/pckUri"]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+text = "资源根URL"
+
+[node name="LineEdit" type="LineEdit" parent="ScrollContainer/VBoxContainer/pcks/pckUri"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "http://127.0.0.1:8801"
+
+[node name="projectN" type="HBoxContainer" parent="ScrollContainer/VBoxContainer/pcks"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="ScrollContainer/VBoxContainer/pcks/projectN"]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+text = "项目名称"
+
+[node name="LineEdit" type="LineEdit" parent="ScrollContainer/VBoxContainer/pcks/projectN"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "sample"
+
+[node name="projectEnv" type="HBoxContainer" parent="ScrollContainer/VBoxContainer/pcks"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="ScrollContainer/VBoxContainer/pcks/projectEnv"]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+text = "项目环境"
+
+[node name="LineEdit" type="OptionButton" parent="ScrollContainer/VBoxContainer/pcks/projectEnv"]
+layout_mode = 2
+size_flags_horizontal = 3
+selected = 0
+item_count = 2
+popup/item_0/text = "Dev"
+popup/item_0/id = 0
+popup/item_1/text = "Prod"
+popup/item_1/id = 1
+
+[node name="projectN2" type="HBoxContainer" parent="ScrollContainer/VBoxContainer/pcks"]
+layout_mode = 2
+
+[node name="Button" type="Button" parent="ScrollContainer/VBoxContainer/pcks/projectN2"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "加载信息"
+
+[node name="Button2" type="Button" parent="ScrollContainer/VBoxContainer/pcks/projectN2"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "保存信息"
+
+[node name="packages" type="VBoxContainer" parent="ScrollContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="Label3" type="Label" parent="ScrollContainer/VBoxContainer/packages"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "资源列表"
+horizontal_alignment = 1
+
+[node name="pckPlatform" type="HBoxContainer" parent="ScrollContainer/VBoxContainer/packages"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="ScrollContainer/VBoxContainer/packages/pckPlatform"]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+text = "发布平台"
+
+[node name="OptionButton" type="OptionButton" parent="ScrollContainer/VBoxContainer/packages/pckPlatform"]
+layout_mode = 2
+size_flags_horizontal = 3
+selected = 0
+item_count = 2
+popup/item_0/text = "Windows Desktop"
+popup/item_0/id = 0
+popup/item_1/text = "Android"
+popup/item_1/id = 1
+
+[node name="Button" type="Button" parent="ScrollContainer/VBoxContainer/packages/pckPlatform"]
+custom_minimum_size = Vector2(80, 0)
+layout_mode = 2
+text = "扫描导出"
+
+[node name="platformPckTemp2" type="HBoxContainer" parent="ScrollContainer/VBoxContainer/packages"]
+layout_mode = 2
+
+[node name="Label2" type="Label" parent="ScrollContainer/VBoxContainer/packages/platformPckTemp2"]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+
+[node name="OptionButton2" type="OptionButton" parent="ScrollContainer/VBoxContainer/packages/platformPckTemp2"]
+layout_mode = 2
+size_flags_horizontal = 3
+selected = 0
+item_count = 3
+popup/item_0/text = "小版本"
+popup/item_0/id = 0
+popup/item_1/text = "大版本"
+popup/item_1/id = 1
+popup/item_2/text = "主版本"
+popup/item_2/id = 2
+
+[node name="Button2" type="Button" parent="ScrollContainer/VBoxContainer/packages/platformPckTemp2"]
+custom_minimum_size = Vector2(80, 0)
+layout_mode = 2
+text = "新版本"
+
+[node name="platformPckTemp" type="HBoxContainer" parent="ScrollContainer/VBoxContainer/packages"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="ScrollContainer/VBoxContainer/packages/platformPckTemp"]
+layout_mode = 2
+size_flags_horizontal = 2
+text = "资源名称"
+
+[node name="Label2" type="Label" parent="ScrollContainer/VBoxContainer/packages/platformPckTemp"]
+layout_mode = 2
+size_flags_horizontal = 6
+text = "版本号"
+
+[node name="Button" type="Button" parent="ScrollContainer/VBoxContainer/packages/platformPckTemp"]
+layout_mode = 2
+size_flags_horizontal = 10
+disabled = true
+text = "新版本"
+
+[node name="platformPcks" type="VBoxContainer" parent="ScrollContainer/VBoxContainer/packages"]
+layout_mode = 2
+
+[node name="publishHandle" type="HBoxContainer" parent="ScrollContainer/VBoxContainer/packages"]
+layout_mode = 2
+alignment = 1
+
+[node name="Button" type="Button" parent="ScrollContainer/VBoxContainer/packages/publishHandle"]
+custom_minimum_size = Vector2(60, 0)
+layout_mode = 2
+size_flags_horizontal = 3
+text = "同步"
+
+[node name="Button2" type="Button" parent="ScrollContainer/VBoxContainer/packages/publishHandle"]
+custom_minimum_size = Vector2(60, 0)
+layout_mode = 2
+size_flags_horizontal = 3
+text = "发布"
+
+[node name="Button3" type="Button" parent="ScrollContainer/VBoxContainer/packages/publishHandle"]
+custom_minimum_size = Vector2(60, 0)
+layout_mode = 2
+size_flags_horizontal = 3
+text = "重置"
+
+[connection signal="pressed" from="ScrollContainer/VBoxContainer/server/serverPath2/Button" to="." method="load_server_config"]
+[connection signal="pressed" from="ScrollContainer/VBoxContainer/server/serverPath2/Button2" to="." method="_on_save_server_pressed"]
+[connection signal="item_selected" from="ScrollContainer/VBoxContainer/pcks/projectEnv/LineEdit" to="." method="_on_project_env_selected"]
+[connection signal="pressed" from="ScrollContainer/VBoxContainer/pcks/projectN2/Button" to="." method="load_resource_config"]
+[connection signal="pressed" from="ScrollContainer/VBoxContainer/pcks/projectN2/Button2" to="." method="save_resource_config"]
+[connection signal="item_selected" from="ScrollContainer/VBoxContainer/packages/pckPlatform/OptionButton" to="." method="_on_platform_selected"]
+[connection signal="pressed" from="ScrollContainer/VBoxContainer/packages/pckPlatform/Button" to="." method="_on_scan_export_pressed"]
+[connection signal="pressed" from="ScrollContainer/VBoxContainer/packages/platformPckTemp2/Button2" to="." method="_on_prepare_new_version_pressed"]
+[connection signal="pressed" from="ScrollContainer/VBoxContainer/packages/publishHandle/Button" to="." method="_on_sync_pressed"]
+[connection signal="pressed" from="ScrollContainer/VBoxContainer/packages/publishHandle/Button2" to="." method="_on_publish_pressed"]
+[connection signal="pressed" from="ScrollContainer/VBoxContainer/packages/publishHandle/Button3" to="." method="_on_reset_version_pressed"]
