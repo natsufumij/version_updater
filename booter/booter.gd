@@ -55,10 +55,10 @@ func goto_main():
 	get_tree().change_scene_to_file("res://scenes/main.tscn")
 
 func down_success():
+	$CanvasLayer/ColorRect3/Label/ProgressBar.value = 100.0
 	$CanvasLayer/ColorRect3/Label/ProgressBar/Label2.text=""
 	$CanvasLayer/ColorRect3/Label/ProgressBar/Label.text=""
 	$CanvasLayer/ColorRect3/Label/ProgressBar/Label3.text = "已完成"
-	
 
 func _on_down_check_timeout() -> void:
 	var down_ock = VersionManager.get_downloaded_res()
@@ -77,9 +77,9 @@ func _on_down_check_timeout() -> void:
 		
 	$CanvasLayer/ColorRect3/Label/ProgressBar/Label3.text= format_str % [down,total]
 	if down_ock==down_total:
-		$CanvasLayer/ColorRect3/Label/ProgressBar.value = (down*100.0/total)
-	else:
 		$CanvasLayer/ColorRect3/Label/ProgressBar.value = 100.0
+	else:
+		$CanvasLayer/ColorRect3/Label/ProgressBar.value = (down*100.0/total)
 	var speed = VersionManager.get_download_speed() / 1024.0
 	var speed_fr = ""
 	if speed>=1024.0:
